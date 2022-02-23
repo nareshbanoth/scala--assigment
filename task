@@ -30,7 +30,4 @@ for(info <- player_info.sortWith(_._6 > _._6).take(5)){
 
 player_info.sortBy(x => x._5 * 0.05 + x._6 * 5).reverse
 
-// val res11: Array[(Int, String, String, Int, Int, Int)] = 
-// Array( (2021,Sam,India,23,2300,3), 
-//        (2021,Mano,India,23,300,13), 
-//        (2021,Ram,India,23,300,3))
+
